@@ -1,0 +1,75 @@
+---
+title: "Introduction to organiser"
+author: "Clément Rieux"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to organiser}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview
+
+The `organiser` package helps you create structured R projects easily. It automatically generates project folders, example files, a Quarto report, and sets up `renv` for package management.
+
+## Installation
+
+To install `organiser` from GitHub:
+
+```{r, eval=FALSE}
+# Install devtools if not already installed
+install.packages("devtools")
+
+# Install organiser package
+devtools::install_github("your_github_username/organiser")
+```
+
+## Creating a New Project
+
+Use the `organise()` function to create a new R project:
+
+```{r, eval=FALSE}
+library(organiser)
+
+# Create a project named "my_project"
+organise("my_project")
+```
+
+This will create the following structure:
+
+```
+my_project/
+│── install.R
+│── main.R
+│── functions/
+│   ├── example_function.R
+│── scripts/
+│   ├── example_script.R
+│── tests/
+│   ├── test_example.R
+│── outputs/
+│── config/
+│   ├── config.yml
+│── report/
+│   ├── report.qmd
+│── README.md
+```
+
+## Customizing Your Project
+
+- **Edit `main.R`** to load additional libraries.
+- **Modify `report.qmd`** for your project documentation.
+- **Use `renv`** to manage package dependencies.
+
+## Next Steps
+
+- Explore the example functions and scripts.
+- Extend the project with additional scripts and configurations.
+- Run `renv::snapshot()` to save package dependencies.
+
+Happy coding! 🚀

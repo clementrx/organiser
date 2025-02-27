@@ -1,0 +1,6 @@
+^renv$
+^renv\.lock$
+^organiser\.Rproj$
+^\.Rproj\.user$
+^doc$
+^Meta$
