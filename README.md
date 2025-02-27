@@ -3,6 +3,9 @@
 
 # organiser
 
+[![Codecov test
+coverage](https://codecov.io/gh/clementrx/organiser/graph/badge.svg)](https://app.codecov.io/gh/clementrx/organiser)
+
 ## Overview
 
 `organiser` is an R package designed to streamline project setup and
@@ -44,4 +47,4 @@ organise("my_project")
 
 If you encounter a clear bug, questions, please file an issue with a
 minimal reproducible example on
-[GitHub](https://github.com/organiser/issues).
+[GitHub](https://github.com/clementrx/organiser/issues).

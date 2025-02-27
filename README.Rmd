@@ -16,6 +16,7 @@ options(tibble.print_min = 5, tibble.print_max = 5)
 
 # organiser 
 
+ [![Codecov test coverage](https://codecov.io/gh/clementrx/organiser/graph/badge.svg)](https://app.codecov.io/gh/clementrx/organiser)
 
 ## Overview  
 
@@ -49,6 +50,6 @@ organise("my_project")
 
 ## Getting help
 
-If you encounter a clear bug, questions, please file an issue with a minimal reproducible example on [GitHub](https://github.com/organiser/issues). 
+If you encounter a clear bug, questions, please file an issue with a minimal reproducible example on [GitHub](https://github.com/clementrx/organiser/issues). 
 
 
